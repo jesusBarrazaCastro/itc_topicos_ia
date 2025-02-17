@@ -1,0 +1,3 @@
+## Introducción
+
+Este documento aborda los conceptos de sistemas expertos y lógica difusa, dos metodologías clave en la Inteligencia Artificial. Los sistemas expertos emulan la toma de decisiones de expertos humanos mediante una base de conocimiento y un motor de inferencia. Por su parte, la lógica difusa permite manejar la imprecisión, utilizando valores intermedios para una toma de decisiones más flexible. Además, se explora cómo integrar la lógica difusa en sistemas expertos para resolver problemas con incertidumbre, presentando un ejemplo práctico de implementación en un sistema de control embebido.

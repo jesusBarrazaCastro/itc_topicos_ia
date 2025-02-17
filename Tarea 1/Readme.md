@@ -1,0 +1,3 @@
+## Introducción:
+
+La Inteligencia Artificial (IA) ha transformado diversos sectores al imitar la inteligencia humana y automatizar tareas complejas. Sus aplicaciones abarcan desde la salud y la educación hasta la industria y el entretenimiento, optimizando procesos y mejorando la toma de decisiones. Entre sus principales áreas se encuentran el aprendizaje automático, el procesamiento del lenguaje natural, la visión por computadora y los sistemas expertos. Gracias a estos avances, la IA ha permitido el desarrollo de asistentes virtuales, diagnósticos médicos, vehículos autónomos y sistemas de recomendación, entre otros. Sin embargo, su crecimiento también plantea desafíos éticos y de regulación que deben abordarse para garantizar un uso responsable.

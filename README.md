@@ -5,6 +5,10 @@
 ### 📂 Estructura del Repositorio
 ```
 📦 TRABAJOS
+├── 📁 Protocolo de investigacion (trabajo en equipo)
+│   ├── 📄 README.md  # Descripción del proyecto
+│   ├── 📄 protocolo.pdf # Documento en pdf de la investigación 
+│   └── 📄 protocolo.ppt # Presentacion 
 ├── 📁 Tarea_01 - Áreas y aplicaciones de la inteligencia artificial
 │   ├── 📄 README.md  # Descripción de la tarea
 │   ├── 📄 tarea_01.pdf # Documento en pdf de la investigación 
@@ -12,9 +16,5 @@
 │   ├── 📄 README.md  # Descripción de la tarea
 │   ├── 📄 tarea_02.pdf # Documento en pdf de la investigación 
 │   └── 📄 tarea_02.ppt # Presentacion de los resultados
-├── 📁 Protocolo de investigacion (trabajo en equipo)
-│   ├── 📄 README.md  # Descripción del proyecto
-│   ├── 📄 protocolo.pdf # Documento en pdf de la investigación 
-│   └── 📄 protocolo.ppt # Presentacion 
 └── 📄 README.md
 ```

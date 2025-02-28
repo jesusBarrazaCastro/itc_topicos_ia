@@ -1,0 +1,1 @@
+Este protocolo de investigación analiza la integración de Machine Learning, Big Data e Inteligencia Artificial en la agricultura mexicana, con un enfoque en cultivos clave como el tomate y el maíz en Culiacán, Sinaloa. Se explora el estado actual, los desafíos y las oportunidades de estas tecnologías para mejorar la eficiencia, sostenibilidad y productividad agrícola.

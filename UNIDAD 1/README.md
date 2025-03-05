@@ -1,14 +1,12 @@
-# 📚 Repositorio de Tareas
+# 📚 UNIDAD 1
 
-### ¡Bienvenido a mi repositorio de la materia de Topicos de IA! Aquí iré subiendo las actividades y proyectos de la materia. Cada tarea se encuentra organizada en su respectiva carpeta dentro de la raíz del repositorio.
-
-### 📂 Estructura del Repositorio
+### 📂 Estructura de la carpeta
 ```
 📦 TRABAJOS
 ├── 📁 Protocolo de investigacion (trabajo en equipo)
 │   ├── 📄 README.md  # Descripción del proyecto
-│   ├── 📄 protocolo.pdf # Documento en pdf de la investigación 
-│   └── 📄 protocolo.ppt # Presentacion 
+│   ├── 📄 PROTOCOLO DE INVESTIGACION.pdf # Documento en pdf de la investigación 
+│   └── 📄 IA Y ML EN LA AGRICULTURA SOSTENIBLE - PRESENTACION.ppt # Presentacion 
 ├── 📁 Tarea_01 - Áreas y aplicaciones de la inteligencia artificial
 │   ├── 📄 README.md  # Descripción de la tarea
 │   ├── 📄 tarea_01.pdf # Documento en pdf de la investigación 

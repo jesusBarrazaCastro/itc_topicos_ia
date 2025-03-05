@@ -8,8 +8,8 @@
 ├── 📁 UNIDAD 1
 │   ├── 📁 Protocolo de investigacion (trabajo en equipo)
 │   │   ├── 📄 README.md  # Descripción del proyecto
-│   │   ├── 📄 protocolo.pdf # Documento en pdf de la investigación
-│   │   └── 📄 protocolo.ppt # Presentación
+│   │   ├── 📄 PROTOCOLO DE INVESTIGACION.pdf # Documento en pdf de la investigación
+│   │   └── 📄 IA Y ML EN LA AGRICULTORA SOSTENIBLE - PRESENTACION.ppt # Presentación
 │   ├── 📁 Tarea_01 - Áreas y aplicaciones de la inteligencia artificial
 │   │   ├── 📄 README.md  # Descripción de la tarea
 │   │   ├── 📄 tarea_01.pdf # Documento en pdf de la investigación

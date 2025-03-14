@@ -18,6 +18,12 @@
 │   │   ├── 📄 tarea_02.pdf # Documento en pdf de la investigación
 │   │   └── 📄 tarea_02.ppt # Presentación de los resultados
 ├── 📁 UNIDAD 2
+│   ├── 📁 Tarea_01 - Definición y representación de algoritmos
+│   │   ├── 📄 README.md  # Descripción de la tarea
+│   │   ├── 📄 tarea_01.pdf # Documento en pdf de la tarea
+│   ├── 📁 Tarea_02 - Solución al problema de N reinas con el algoritmo de búsqueda tabú
+│   │   ├── 📄 README.md  # Descripción de la tarea
+│   │   └── 📄 tarea_02.py # Código del algoritmo
 ├── 📁 UNIDAD 3
 ├── 📁 UNIDAD 4
 └── 📄 README.md

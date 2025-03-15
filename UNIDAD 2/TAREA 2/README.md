@@ -1,4 +1,7 @@
 # Tarea 2 - Resolver el problema de N (8) reynas con busqueda Tabu ♛♟️
+Trabajo realizado por:
+- Jesús Alberto Barraza Castro
+- Jesús Guadalupe Wong Camacho
 ***
 
 ## Descripcion del problema:

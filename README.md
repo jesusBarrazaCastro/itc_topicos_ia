@@ -22,8 +22,9 @@
 │   │   ├── 📄 README.md  # Descripción de la tarea
 │   │   ├── 📄 tarea_01.pdf # Documento en pdf de la tarea
 │   ├── 📁 Tarea_02 - Solución al problema de N reinas con el algoritmo de búsqueda tabú
-│   │   ├── 📄 README.md  # Descripción de la tarea
-│   │   └── 📄 tarea_02.py # Código del algoritmo
+│   │   ├── 📄 README.md  # Descripción del problema
+│   │   ├── 📄 diagrama_n_reinas.png  # Propuesta de algoritmo en diagrama de flujo de 
+│   │   └── 📄 NReinasTabu.py # Código del algoritmo
 ├── 📁 UNIDAD 3
 ├── 📁 UNIDAD 4
 └── 📄 README.md

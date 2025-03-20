@@ -8,8 +8,20 @@ class NReinasTabu:
         self.tamano_tabu = tamano_tabu
 
     def generar_solucion_inicial(self):
-        #generar solucion inicial aleatoria
-        return [random.randint(0, self.n - 1) for _ in range(self.n)]
+        opcion = input("¿Deseas ingresar la solución inicial manualmente? (s/n): ").strip().lower()
+        
+        if opcion == 's':
+            while True:
+                try:
+                    solucion = list(map(int, input(f"Ingrese {self.n} valores separados por espacios (0-{self.n-1}): ").split()))
+                    if len(solucion) == self.n and all(0 <= x < self.n for x in solucion):
+                        return solucion
+                    else:
+                        print(f"Por favor, ingrese {self.n} valores dentro del rango 0-{self.n-1}.")
+                except ValueError:
+                    print("Entrada inválida. Inténtalo de nuevo.")
+        else:
+            return [random.randint(0, self.n - 1) for _ in range(self.n)]
 
     def contar_conflictos(self, solucion):
         #contar el numero de conflictos en la solucion

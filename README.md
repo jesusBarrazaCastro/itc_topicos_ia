@@ -9,7 +9,7 @@
 │   ├── 📁 Protocolo de investigacion (trabajo en equipo)
 │   │   ├── 📄 README.md  # Descripción del proyecto
 │   │   ├── 📄 PROTOCOLO DE INVESTIGACION.pdf # Documento en pdf de la investigación
-│   │   └── 📄 IA Y ML EN LA AGRICULTORA SOSTENIBLE - PRESENTACION.ppt # Presentación
+│   │   ├── 📄 IA Y ML EN LA AGRICULTORA SOSTENIBLE - PRESENTACION.ppt # Presentación
 │   ├── 📁 Tarea_01 - Áreas y aplicaciones de la inteligencia artificial
 │   │   ├── 📄 README.md  # Descripción de la tarea
 │   │   ├── 📄 tarea_01.pdf # Documento en pdf de la investigación
@@ -24,7 +24,11 @@
 │   ├── 📁 Tarea_02 - Solución al problema de N reinas con el algoritmo de búsqueda tabú
 │   │   ├── 📄 README.md  # Descripción del problema
 │   │   ├── 📄 diagrama_n_reinas.png  # Propuesta de algoritmo en diagrama de flujo de 
-│   │   └── 📄 NReinasTabu.py # Código del algoritmo
+│   │   ├── 📄 NReinasTabu.py # Código del algoritmo
+│   └── 📁 Tarea_03 - Solución al problema de N reinas con el algoritmo de recocido simulado
+│       ├── 📄 README.md  # Descripción del problema
+│       ├── 📄 n_reinas_recocido # Presentacion en pdf del problema 
+│       └── 📄 n_reinas_recocido.py # Código del algoritmo
 ├── 📁 UNIDAD 3
 ├── 📁 UNIDAD 4
 └── 📄 README.md

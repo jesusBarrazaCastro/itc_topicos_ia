@@ -3,7 +3,7 @@ import math
 import time
 
 class NReinasRecocido:
-    def __init__(self, n=8, temperatura_inicial=5000, min_temperatura=0.1, k=0.1):
+    def __init__(self, n=10, temperatura_inicial=500, min_temperatura=0.1, k=0.1):
         self.n = n
         self.temperatura = temperatura_inicial
         self.min_temperatura = min_temperatura
@@ -48,7 +48,6 @@ class NReinasRecocido:
 
 
     def actualizar_temperatura(self):
-        #self.temperatura = self.temperatura / (1 + self.k * math.log(1 + self.iteracion))
         self.temperatura *= 0.99
         self.iteracion += 1
 
@@ -60,19 +59,20 @@ class NReinasRecocido:
         iteraciones = 0
 
         while self.temperatura > self.min_temperatura and mejor_puntaje > 0:
-            vecino = self.generar_vecino(solucion_actual)
-            puntaje_actual = self.contar_conflictos(solucion_actual)
-            puntaje_vecino = self.contar_conflictos(vecino)
-            
-            if puntaje_vecino < puntaje_actual:
-                solucion_actual = vecino[:]
-                if puntaje_vecino < mejor_puntaje:
-                    mejor_solucion = vecino[:]
-                    mejor_puntaje = puntaje_vecino
+            vecinos = [self.generar_vecino(solucion_actual) for _ in range(10)]  #generar vecindario
+
+
+            mejor_vecino = min(vecinos, key=lambda vecino: self.contar_conflictos(vecino))
+            mejor_puntaje_vecino = self.contar_conflictos(mejor_vecino)
+
+            if mejor_puntaje_vecino < mejor_puntaje:
+                solucion_actual = mejor_vecino[:]
+                mejor_solucion = mejor_vecino[:]
+                mejor_puntaje = mejor_puntaje_vecino
             else:
-                probabilidad = math.exp((puntaje_actual - puntaje_vecino) / (self.temperatura + 1e-10))
+                probabilidad = math.exp((mejor_puntaje - mejor_puntaje_vecino) / (self.temperatura + 1e-10))
                 if random.random() < probabilidad:
-                    solucion_actual = vecino[:]
+                    solucion_actual = mejor_vecino[:]
             
             self.actualizar_temperatura()
             iteraciones += 1
@@ -82,7 +82,7 @@ class NReinasRecocido:
         return mejor_solucion, mejor_puntaje, iteraciones, tiempo_ejecucion
 
 # Ejecutar el algoritmo
-solucionador = NReinasRecocido(n=8)
+solucionador = NReinasRecocido(n=10)
 solucion, conflictos, iteraciones, tiempo = solucionador.recocido_simulado()
 
 # Imprimir resultados

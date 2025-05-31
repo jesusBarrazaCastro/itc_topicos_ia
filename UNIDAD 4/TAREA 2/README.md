@@ -4,6 +4,10 @@
 
 El objetivo de este proyecto fue entrenar un modelo para clasificar imágenes de diferentes especies de plantas. La tarea incluyó:
 
+📊 **Fuente de los dato**
+Las imagenes utilizadas para entrenar y evaluar el modelo fueron obtenidas del dataset "House Plant Species" disponible en kaggle
+[Clic aqui para ir al dataset](https://www.kaggle.com/datasets/kacpergregorowicz/house-plant-species/data)
+
 
 🧠 **Arquitectura de la red neuronal utilizada**  
 Se utilizo una red neuronal con capas convolucionales, capas de pooling, capas densas y funciones de activación adecuadas para el problema de clasificación.

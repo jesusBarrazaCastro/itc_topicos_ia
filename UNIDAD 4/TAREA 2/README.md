@@ -1,4 +1,8 @@
 # 🌿 Proyecto de Clasificación de Plantas 🌿
+Trabajo realizado por:
+- Jesús Alberto Barraza Castro
+- Jesús Guadalupe Wong Camacho
+***
 
 ## 📋 Descripción de la tarea
 

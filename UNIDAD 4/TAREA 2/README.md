@@ -31,3 +31,6 @@ Script en Python que abre la cámara web del equipo, captura imágenes en tiempo
 
 ---
 
+## 📹 Video de pruebas con webcam
+En este video se realizaron pruebas utilizando la camara web para clasificar plantas
+[Clic aqui para ir al video]([https://www.kaggle.com/datasets/kacpergregorowicz/house-plant-species/data](https://youtu.be/IKAmNQ2jGpc))

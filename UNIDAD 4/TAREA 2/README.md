@@ -7,6 +7,7 @@ El objetivo de este proyecto fue entrenar un modelo para clasificar imágenes de
 
 🧠 **Arquitectura de la red neuronal utilizada**  
 Se utilizo una red neuronal con capas convolucionales, capas de pooling, capas densas y funciones de activación adecuadas para el problema de clasificación.
+[Documentacion detallada](https://github.com/jesusBarrazaCastro/itc_topicos_ia/blob/main/UNIDAD%204/TAREA%202/documentacion_clasificacion_plantas.pdf)
 
 ---
 

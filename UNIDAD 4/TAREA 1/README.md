@@ -1,4 +1,8 @@
 # Modelo de red neuronal para resolver operaciones basicas 🧠 🧮
+Trabajo realizado por:
+- Jesús Alberto Barraza Castro
+- Jesús Guadalupe Wong Camacho
+***
 
 Este proyecto desarrolla un modelo de Keras con el objetivo de aprender a realizar las cuatro basicas fundamentales (suma, resta, multiplicación y división) utilizando dos operandos enteros que se encuentran en el rango de 0 a 9.
 

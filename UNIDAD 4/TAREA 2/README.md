@@ -36,5 +36,6 @@ Script en Python que abre la cámara web del equipo, captura imágenes en tiempo
 ---
 
 ## 📹 Video de pruebas con webcam
+![Image](https://github.com/user-attachments/assets/a76faf95-0562-4516-8702-e273fbd5d285)
 En este video se realizaron pruebas utilizando la camara web para clasificar plantas
 [Clic aqui para ir al video](https://youtu.be/IKAmNQ2jGpc)
